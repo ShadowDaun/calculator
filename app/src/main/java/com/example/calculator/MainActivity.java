@@ -105,16 +105,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {tv1.setText(tv1.getText() + ".");}
         });
-        sk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {tv1.setText(tv1.getText() + "(");}
-
-        });
-        sk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {tv1.setText(tv1.getText() + ")");}
-
-        });
         plus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
